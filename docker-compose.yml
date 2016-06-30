@@ -1,4 +1,4 @@
-bcv-nagios:
+nagios:
   ports:
   - 10300:80/tcp
   - 10301:443/tcp
@@ -7,4 +7,4 @@ bcv-nagios:
   labels:
     io.rancher.container.pull_image: always
     io.rancher.scheduler.affinity:host_label: nagioshost=true
-  image: docker.comcast.net/bcvtools/bcv-nagios:1.0.46
+  image: nagios:1.0.1

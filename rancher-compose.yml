@@ -1,2 +1,2 @@
-bcv-nagios:
+nagios:
   scale: 1
